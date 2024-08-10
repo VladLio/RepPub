@@ -1,0 +1,4 @@
+A more completed test has been done with Randomized deleted pointers. Randomized number is coef 0.8 * 10e6 allocations and 0.6.  List of random pointer is filled before the test. 
+A second random was made (between 0,1000), for number of consecutive deleted pointer. ( because normal distribution touch equally each pages, so no deleted page intervene)  
+Random is the great Mersenne c++ uniform distribution. 
+Graph memory result speak for me. 
